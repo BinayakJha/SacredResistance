@@ -4,27 +4,322 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sacred Resistance - Coming Soon</title>
+    <title>Sacred Resistance - Eco-Activism & Spiritual Communities</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <img src="https://orbisbooks.com/cdn/shop/files/Clatterbuck_SacredResistance_03763c73-46d5-42e5-80a1-db6fe4b4ed3b_900x.jpg?v=1730296647"
-            alt="Sacred Resistance Book Cover" class="book-image">
-        <div class="text-content">
-            <h1>Sacred Resistance: Eco-Activism & Spiritual Awakening</h1>
-            <p>A powerful new book by Mark Clatterbuck | <span style="color: #FFD700;">Coming Soon</span></p>
-            <div class="button-container">
-                <a href="https://www.amazon.com/Sacred-Resistance-Eco-Activism-Spiritual-Communities/dp/1626985987" class="amazon-button" target="_blank">Buy on Amazon</a>
-                <a href="https://orbisbooks.com/products/sacred-resistance-eco-activism-and-the-rise-of-new-spiritual-communities" class="other-sources-button" target="_blank">Other Sources</a>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-brand">
+            <a href="#hero">Sacred Resistance</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <img src="https://orbisbooks.com/cdn/shop/files/Clatterbuck_SacredResistance_03763c73-46d5-42e5-80a1-db6fe4b4ed3b_900x.jpg?v=1730296647"
+                alt="Sacred Resistance Book Cover" class="book-image">
+            <div class="text-content">
+                <h1>Sacred Resistance: Eco-Activism & Spiritual Awakening</h1>
+                <p>A powerful new book by Mark Clatterbuck | <span style="color: #FFD700;">Coming Soon</span></p>
+                <div class="button-container">
+                    <a href="https://www.amazon.com/Sacred-Resistance-Eco-Activism-Spiritual-Communities/dp/1626985987"
+                        class="amazon-button" target="_blank">Buy on Amazon</a>
+                    <a href="https://orbisbooks.com/products/sacred-resistance-eco-activism-and-the-rise-of-new-spiritual-communities"
+                        class="other-sources-button" target="_blank">Other Sources</a>
+                </div>
             </div>
-            <footer>
-                Cover design: Ponie Sheehan | Photo by David Parry
-            </footer>
+        </div>
+    </section>
+
+    <!-- Movement I -->
+    <section id="movement1" class="movement-section">
+        <div class="movement-content">
+            <div class="movement-header">
+                <h2 class="movement-title">Movement I: The Awakening</h2>
+                <p class="movement-description">Exploring the intersection of spiritual awakening and environmental consciousness.</p>
+            </div>
+            <div class="media-grid">
+                <!-- Images Card -->
+                <div class="media-card" onclick="openModal('gallery-modal')">
+                    <img src="placeholder-1.jpg" alt="Gallery Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Photo Gallery</h3>
+                        <p class="media-description">View our collection of spiritual and environmental moments.</p>
+                    </div>
+                </div>
+
+                <!-- Videos Card -->
+                <div class="media-card" onclick="openModal('video-modal')">
+                    <img src="placeholder-2.jpg" alt="Video Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Video Collection</h3>
+                        <p class="media-description">Watch interviews and documentary clips.</p>
+                    </div>
+                </div>
+
+                <!-- Articles Card -->
+                <div class="media-card" onclick="openModal('article-modal')">
+                    <img src="placeholder-3.jpg" alt="Articles Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">News & Articles</h3>
+                        <p class="media-description">Read the latest coverage and insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movement II -->
+    <section id="movement2" class="movement-section">
+        <div class="movement-content">
+            <div class="movement-header">
+                <h2 class="movement-title">Movement II: Sacred Action</h2>
+                <p class="movement-description">Direct action and resistance in defense of sacred lands and waters.</p>
+            </div>
+            <div class="media-grid">
+                <div class="media-card" onclick="openModal('gallery-modal-2')">
+                    <img src="placeholder-4.jpg" alt="Gallery Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Photo Gallery</h3>
+                        <p class="media-description">Documenting sacred resistance and environmental protection.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('video-modal-2')">
+                    <img src="placeholder-5.jpg" alt="Video Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Video Collection</h3>
+                        <p class="media-description">Footage from frontline environmental actions.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('article-modal-2')">
+                    <img src="placeholder-6.jpg" alt="Articles Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">News & Articles</h3>
+                        <p class="media-description">Stories of resistance and environmental justice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movement III -->
+    <section id="movement3" class="movement-section">
+        <div class="movement-content">
+            <div class="movement-header">
+                <h2 class="movement-title">Movement III: Community Rising</h2>
+                <p class="movement-description">Building resilient communities through spiritual and environmental connection.</p>
+            </div>
+            <div class="media-grid">
+                <div class="media-card" onclick="openModal('gallery-modal-3')">
+                    <img src="placeholder-7.jpg" alt="Gallery Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Photo Gallery</h3>
+                        <p class="media-description">Communities coming together for environmental causes.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('video-modal-3')">
+                    <img src="placeholder-8.jpg" alt="Video Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Video Collection</h3>
+                        <p class="media-description">Stories of community-led environmental initiatives.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('article-modal-3')">
+                    <img src="placeholder-9.jpg" alt="Articles Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">News & Articles</h3>
+                        <p class="media-description">Reports on community environmental projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movement IV -->
+    <section id="movement4" class="movement-section">
+        <div class="movement-content">
+            <div class="movement-header">
+                <h2 class="movement-title">Movement IV: Global Consciousness</h2>
+                <p class="movement-description">Connecting local actions to global environmental movements.</p>
+            </div>
+            <div class="media-grid">
+                <div class="media-card" onclick="openModal('gallery-modal-4')">
+                    <img src="placeholder-10.jpg" alt="Gallery Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Photo Gallery</h3>
+                        <p class="media-description">Global environmental movements in action.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('video-modal-4')">
+                    <img src="placeholder-11.jpg" alt="Video Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Video Collection</h3>
+                        <p class="media-description">International environmental activism footage.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('article-modal-4')">
+                    <img src="placeholder-12.jpg" alt="Articles Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">News & Articles</h3>
+                        <p class="media-description">Global perspectives on eco-spirituality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movement V -->
+    <section id="movement5" class="movement-section">
+        <div class="movement-content">
+            <div class="movement-header">
+                <h2 class="movement-title">Movement V: Future Visions</h2>
+                <p class="movement-description">Charting the path forward for spiritual environmentalism.</p>
+            </div>
+            <div class="media-grid">
+                <div class="media-card" onclick="openModal('gallery-modal-5')">
+                    <img src="placeholder-13.jpg" alt="Gallery Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Photo Gallery</h3>
+                        <p class="media-description">Visions of a sustainable future.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('video-modal-5')">
+                    <img src="placeholder-14.jpg" alt="Video Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">Video Collection</h3>
+                        <p class="media-description">Interviews about the future of eco-spirituality.</p>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openModal('article-modal-5')">
+                    <img src="placeholder-15.jpg" alt="Articles Preview" class="media-image">
+                    <div class="media-content">
+                        <h3 class="media-title">News & Articles</h3>
+                        <p class="media-description">Forward-thinking perspectives on environmental spirituality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('gallery-modal')">&times;</span>
+            <h2 class="movement-title">Photo Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="gallery-1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery-2.jpg" alt="Gallery Image 2">
+                </div>
+                <!-- Add more gallery items as needed -->
+            </div>
         </div>
     </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('video-modal')">&times;</span>
+            <h2 class="movement-title">Video Collection</h2>
+            <div class="video-grid">
+                <iframe src="https://www.youtube.com/embed/video1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/video2" frameborder="0" allowfullscreen></iframe>
+                <!-- Add more videos as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Modal -->
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('article-modal')">&times;</span>
+            <h2 class="movement-title">News & Articles</h2>
+            <div class="article-list">
+                <div class="article-card">
+                    <span class="article-date">March 15, 2024</span>
+                    <h3 class="article-title">The Rise of Eco-Spiritual Communities</h3>
+                    <p class="article-excerpt">How spiritual communities are leading the charge in environmental protection...</p>
+                </div>
+                <!-- Add more articles as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Movement II Modals -->
+    <div id="gallery-modal-2" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('gallery-modal-2')">&times;</span>
+            <h2 class="movement-title">Sacred Action Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Add gallery items -->
+            </div>
+        </div>
+    </div>
+
+    <div id="video-modal-2" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('video-modal-2')">&times;</span>
+            <h2 class="movement-title">Sacred Action Videos</h2>
+            <div class="video-grid">
+                <!-- Add video items -->
+            </div>
+        </div>
+    </div>
+
+    <div id="article-modal-2" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('article-modal-2')">&times;</span>
+            <h2 class="movement-title">Sacred Action Articles</h2>
+            <div class="article-list">
+                <!-- Add article items -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add similar modal structures for movements 3, 4, and 5 -->
+    
+    <footer>
+        Cover design: Ponie Sheehan | Photo by David Parry
+    </footer>
+
+    <script>
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            
+            // Trigger reflow to ensure transition works
+            modal.offsetHeight;
+            
+            // Add active class for animation
+            modal.classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('active');
+            
+            // Wait for animation to finish before hiding
+            setTimeout(() => {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 300); // Match this with CSS transition duration
+        }
+
+        // Close modal when clicking outside of modal content
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                closeModal(event.target.id);
+            }
+        }
+    </script>
 </body>
 
 </html>
